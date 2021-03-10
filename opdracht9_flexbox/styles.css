@@ -1,0 +1,105 @@
+
+body {
+
+    background-color: lightcyan;
+    color:green;
+ /*
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    Dit is het zelfde als erboven 
+ */
+
+    font: normal 16px arial, helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 5px 1px;
+    margin: 5px;
+}
+
+p{
+    color: blue;
+}
+.black-border{
+    border: 3px solid black;
+    padding: 9px 5px;
+}
+#green-background{
+    background-color: greenyellow;
+    padding: 9px 3px;
+}
+header {
+    
+    border: 3px solid rgb(0, 255, 136);
+    margin: 0 auto;
+    /*
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    */
+    padding: 9px 1px 9px 1px;
+}
+.box-1{
+margin: 0 auto;
+text-align: center;
+width: fit-content;
+}
+
+
+main {
+    border: 3px solid rgb(25, 0, 255);
+    margin: 1px;
+    /*
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    */
+    padding: 9px 9px 9px 9px;
+}
+footer {
+
+    display: block;
+    border: 3px solid rgb(255, 123, 0);
+    margin: 9px 1px;
+    /*
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    */
+    padding: 1px 9px 1px 9px;
+}
+
+.list {
+display: inline;
+text-align: center;
+padding: 16px 16px;
+text-decoration: none;
+}
+
+/* media querie smartphone */
+
+@media (max-width: 400px)
+{
+    .list {
+        display: block;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;
+        }
+}
+
+/* media querie desktop */
+
+@media (min-width: 1024px)
+{
+body {
+    color:cornsilk;
+background-color: grey;
+    font: normal 10px arial, helvetica, sans-serif;
+    line-height: 1em;
+    padding: 5px 1px;
+    margin: 5px;
+}
+}

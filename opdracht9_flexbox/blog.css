@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .blogpost {
+    width: 300px;
+    border: 1px solid black;
+  }
+  
+.een {
+    align-self: flex-end;
+  }
+  .drie{
+    align-self: flex-end;
+  }

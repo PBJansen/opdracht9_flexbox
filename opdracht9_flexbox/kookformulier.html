@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Kook Formulier</title>
+</head>
+
+<body>
+
+
+    <form name="kookformulier" method="POST" data-netlify="true">
+
+        <header>
+            <h1>Contact Formulier</h1>
+        </header>
+
+        <main>
+            <p><label>Naam: <input type="text" name="name" /></label></p>
+
+            <p><label>Email: <input type="email" name="email" /> </label></p>
+
+            <p><label>Telefoonnummer: <input type="tel" name="phonenumber" /></label></p>
+
+            <p><label>Leeftijd: <input type="age" name="age" /> </label></p>
+
+            <p><label>Geboortedatum: <input type="date" name="date" /></label></p>
+
+            <p><label>Man: <input type="radio" id="male" name="gender" value="male"></label></p>
+
+            <p><label>Vrouw: <input type="radio" id="female" name="gender" value="female"></label></p>
+
+
+            <h1>favoriete cuisine:</h1>
+
+            <input type="checkbox" id="frans" name="frans" checked>
+            <label for="frans">frans</label>
+
+            <input type="checkbox" id="italiaans" name="italiaans" checked>
+            <label for="italiaans">italiaans</label>
+
+            <input type="checkbox" id="spaans" name="spaans" checked>
+            <label for="spaans">spaans</label>
+
+            <input type="checkbox" id="arabisch" name="arabisch" checked>
+            <label for="arabisch">arabisch</label>
+
+            <p>
+                <label for="favcolor">favoriete kleur van short:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            </p>
+
+            <p><label> biografie: <textarea name="message"></textarea></label></p>
+
+            <input type="file" id="myFile" name="filename">
+
+            <p><input type="reset"></p>
+
+            <p><button type="submit">Submit</button></p>
+
+        </main>
+
+        <footer>
+
+            <p>
+                <a href="index.html">main site</a>
+            </p>
+
+        </footer>
+
+
+
+
+    </form>
+
+
+
+</body>
